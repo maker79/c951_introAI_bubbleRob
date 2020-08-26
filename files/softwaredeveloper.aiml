@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>software developer</pattern>
+	    <template>A standard Software Developer job description should include, but not be limited to: Researching, designing, implementing and managing software programs.
+	    <br></br>
+	    <link>
+	        <text>Learn more about software developer job</text>
+	        <url>https://www.roberthalf.com.au/employers/it-technology/software-developer-jobs</url>
+        </link>
+        <button>
+            <text>Explore other careers</text>
+            <postback>top 5 careers</postback>
+        </button>
+        <button>
+            <text>Go back to questions</text>
+            <postback>find out more</postback>
+        </button>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>software development</pattern>
+        <template>You should consider researching more in becoming a software developer. You maight be a good match.
+        <br></br>
+        <link>
+            <text>Clic here to see some entry level jobs and job descriptions</text>
+            <url>https://www.wayup.com/guide/entry-level-software-engineer-job-guide/</url>
+        </link>
+        <button>
+            <text>Explore other careers</text>
+            <postback>top 5 careers</postback>
+        </button>
+        <button>
+            <text>Go back to questions</text>
+            <postback>find out more</postback>
+        </button>
+        </template>
+    </category>
+</aiml>

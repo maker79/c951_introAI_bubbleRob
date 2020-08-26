@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>web developer</pattern>
+	    <template>A Web Developer is responsible for the coding, design and layout of a website according to a company's specifications
+	    <br></br>
+	    <link>
+	        <text>Learn more about web developer job</text>
+	        <url>https://resources.workable.com/web-developer-job-description</url>
+        </link>
+        <button>
+            <text>Explore other careers</text>
+            <postback>top 5 careers</postback>
+        </button>
+        <button>
+            <text>Go back to questions</text>
+            <postback>find out more</postback>
+        </button>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>web development</pattern>
+        <template>You should consider researching more in becoming a web developer. You maight be a good match.
+        <br></br>
+        <link>
+            <text>Clic here to see some entry level jobs and job description</text>
+            <url>https://resources.workable.com/programming-interview-questions</url>
+        </link>
+        <button>
+            <text>Explore other careers</text>
+            <postback>top 5 careers</postback>
+        </button>
+        <button>
+            <text>Go back to questions</text>
+            <postback>find out more</postback>
+        </button>
+        </template>
+    </category>
+</aiml>

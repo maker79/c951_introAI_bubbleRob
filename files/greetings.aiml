@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+<category>
+    
+    <pattern>Hello</pattern>
+    <template>Welcome. I am a WGU CS department bot. Please select option below:
+        <button>
+            <text>Top 5 careers with CS degree</text>
+            <postback>top 5 careers</postback>
+        </button>
+        <button>
+            <text>Learn more</text>
+            <postback>find out more</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>top 5 careers</pattern>
+    <template>Please proceed to find out more about each job
+        <button>
+            <text>Web Developer</text>
+            <postback>web developer</postback>
+        </button>
+        <button>
+            <text>Data scientist</text>
+            <postback>data scientist</postback>
+        </button>
+        <button>
+            <text>SQL developer</text>
+            <postback>sql developer</postback>
+        </button>
+        <button>
+            <text>Linux administrator</text>
+            <postback>linux administrator</postback>
+        </button>
+        <button>
+            <text>Software developer</text>
+            <postback>software developer</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    
+    <pattern>find out more</pattern>
+    <template>I will ask you some questions that will help you which career path to consider.
+        <br></br>Are you familiar with web technologies? HTML, CSS, JS?
+            <button>
+                <text>Yes</text>
+                <postback>web developer question</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>data scientist question</postback>
+            </button>
+    
+    </template>
+</category>
+
+<category>
+    <pattern>web developer question</pattern>
+    <template>Do you have experiance developing web sites?
+        <button>
+            <text>Yes</text>
+            <postback>web development</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>sql developer question</postback>
+        </button>
+    </template>
+</category>
+
+
+<category>
+    <pattern>sql developer question</pattern>
+    <template>Do you have experiance in writing SQL queries?
+        <button>
+            <text>Yes</text>
+            <postback>sql developer question num 2</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>linux administrator question</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>linux administrator question</pattern>
+    <template>Do you have experiance with scripting and Unix like OS?
+        <button>
+            <text>Yes</text>
+            <postback>linux administrator question num 2</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>software developer question</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>software developer question</pattern>
+    <template>Are you confortable with Java?
+        <button>
+            <text>Yes</text>
+            <postback>software developer question num 2</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>data scientist question</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>data scientist question</pattern>
+    <template>Do you enjoy working with data?
+        <button>
+            <text>Yes</text>
+            <postback>data scientiest question num 2</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>linux administrator question</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>linux administrator question num 2</pattern>
+    <template>Do you have experiance in shell scripting?
+        <button>
+            <text>Yes</text>
+            <postback>linux administration</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>web developer question</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>sql developer question num 2</pattern>
+    <template>Have you ever worked with oracle SQL?
+        <button>
+            <text>Yes</text>
+            <postback>sql development</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>data scientist question</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>data scientiest question num 2</pattern>
+    <template>Are you good with Python and R?
+        <button>
+            <text>Yes</text>
+            <postback>data science</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>software developer question</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>software developer question num 2</pattern>
+    <template>Do you like software engineering?
+        <button>
+            <text>Yes</text>
+            <postback>software development</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>linux administrator question</postback>
+        </button>
+    </template>
+</category>
+
+
+
+
+
+
+</aiml>

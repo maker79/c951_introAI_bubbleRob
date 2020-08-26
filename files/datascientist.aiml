@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>data scientist</pattern>
+	    <template>Data Scientists are responsible for the collection, cleaning and munging of data to meet the company's purpose.
+	    <br></br>
+	    <link>
+	        <text>Learn more about data scientist job</text>
+	        <url>https://www.toptal.com/data-science/job-description</url>
+        </link>
+        <button>
+            <text>Explore other careers</text>
+            <postback>top 5 careers</postback>
+        </button>
+        <button>
+            <text>Go back to questions</text>
+            <postback>find out more</postback>
+        </button>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>data science</pattern>
+        <template>You should consider researching more in becoming a data scientiest. You maight be a good match.
+        <br></br>
+        <link>
+            <text>Clic here to see some entry level jobs and job description</text>
+            <url>https://www.dataquest.io/blog/how-to-get-your-first-data-science-job/</url>
+        </link>
+        <button>
+            <text>Explore other careers</text>
+            <postback>top 5 careers</postback>
+        </button>
+        <button>
+            <text>Go back to questions</text>
+            <postback>find out more</postback>
+        </button>
+        </template>
+    </category>
+</aiml>

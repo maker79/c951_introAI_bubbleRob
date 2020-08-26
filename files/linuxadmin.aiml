@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+			<category>
+	    <pattern>linux administrator</pattern>
+	    <template>A Linux administrator's main responsibility is to install and set up Linux systems and servers, often for organization-wide deployment.
+	    <br></br>
+	    <link>
+	        <text>Learn more about linux aministrator job</text>
+	        <url>https://www.talentlyft.com/en/resources/linux-administrator-job-description</url>
+        </link>
+        <button>
+            <text>Explore other careers</text>
+            <postback>top 5 careers</postback>
+        </button>
+        <button>
+            <text>Go back to questions</text>
+            <postback>find out more</postback>
+        </button>
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>linux administration</pattern>
+        <template>You should consider researching more in becoming a linux administrator. You maight be a good match.
+        <br></br>
+        <link>
+            <text>Clic here to see some entry level jobs and job description</text>
+            <url>https://jooble.org/jobs-entry-level-linux-system-administrator</url>
+        </link>
+        <button>
+            <text>Explore other careers</text>
+            <postback>top 5 careers</postback>
+        </button>
+        <button>
+            <text>Go back to questions</text>
+            <postback>find out more</postback>
+        </button>
+        </template>
+    </category>
+</aiml>
